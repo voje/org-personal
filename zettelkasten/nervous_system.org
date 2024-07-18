@@ -1,0 +1,17 @@
+#+title: Nervous System
+
+Response to stressful situations.
+Increases heart rate, activates amygdala, fills us up with adrenaline and cortisol.
+
+* Nervous system
+** Somatic nervous system
+Voluntary nervous system.
+Brain - spinal cord - skeletal muscles (conscious control) and skin sensory receptors.
+** Autonomic nervous system
+Visceral/vegetative nervous system.
+Operates internal organs, smooth muscles and glands.
+*** Sympathetic nervous system
+"Fight or flight"
+*** Parasympathetic nervous system
+"Rest and digest"
+*** Enteric nervous system

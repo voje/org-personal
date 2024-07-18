@@ -1,0 +1,81 @@
+#+title: Doom Emacs
+
+Getting started with Doom Emacs.
+Could this be the ultimate productivity tool or is it just going to be another time sink?
+Either way, let's jump right in.
+
+* Installation
+Fedora.
+
+#+begin_src bash
+dnf install emacs
+git clone $doom_repo ~/.emacs.d
+# Add ~/.emacs.d/bin to PATH
+doom install
+doom sync
+#+end_src
+
+* Keybinds
+Oh my god there is alot of those!
+Let's try to capture a useful subset.
+
+| keybind     | action                        |
+|-------------+-------------------------------|
+| C-c -       | Insert horizontal header line |
+| C-c C-e h h | Export to HTML                |
+| C-c C-e h o | Export to HTML and open       |
+| SPC h r r   | Refresh Doom config           |
+| SPC .       | Find file                     |
+| SPC a RET   |                               |
+
+* Links
+Links in emacs are really powerful.
+| keybind   | action      |
+|-----------+-------------|
+| SPC m l l | Create link |
+| SPC n l   | Store link  |
+| SPC m l   |             |
+This is a [[elisp:(+ 2 2)][derp]].
+Here's a link to a specific word in a file: [[file:~/org/zettelkasten/nervous_system.org::Somatic nervous system][Somatic nervous system]].
+
+* Code blocks :codebl:
+:LOGBOOK:
+CLOCK: [2024-06-29 Sat 21:04]--[2024-06-29 Sat 21:24] =>  0:20
+:END:
+| keybind | action                       |
+|---------+------------------------------|
+| <s TAB  | Create code block            |
+| SPC m ' | Open snippet in a new buffer |
+| C-c C-c | Execute code block           |
+
+Wrap code using `C-c C-x s s`
+
+#+begin_src bash
+a=1
+b=2
+echo $((a + 2 * b))
+#+end_src
+
+* Tags :test1:
+| keybind   | action             |
+|-----------+--------------------|
+| SPC m q   | Set tag            |
+| SPC m s s | Sparse tree search |
+|           |                    |
+
+* Lists and checkboxes
+Update marker using `C-c C-c`
+** TODO clean up the kitchen [1/3] [33%]
+- [X] Do one thing
+- [ ] Do another thing
+- [ ] Do Some more things
+  - [ ] Nested done
+
+* Projects
+Projectile discover projects in directory (`~/git`).
+
+* CheatSheets
+https://github.com/niyumard/Doom-Emacs-Cheat-Sheet
+
+This one is a bit out of date but still useful; check comments.
+https://gist.github.com/hjertnes/9e14416e8962ff5f03c6b9871945b165

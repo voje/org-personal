@@ -1,0 +1,16 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/kristjan/org/learning_doom/doom.org
+
+
+* Tags :test1:
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-07-07 Sun 22:00
+:ARCHIVE_FILE: ~/org/learning_doom/doom.org
+:ARCHIVE_CATEGORY: doom
+:END:
+| keybind | action  |
+|---------+---------|
+| SPC m q | Set tag |
+|         |         |

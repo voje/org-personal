@@ -18,7 +18,7 @@ Lisp treats procedures (processes) as data. This makes it suitable for writing p
 Programming language mechanics:
 - Primitive expressions (data, procedures)
 - Means of combination (nesting of procedures)
-- Means of abstarction (naming values)
+- Means of abstraction (naming values)
 
 Elements of programming:
 - procedures
@@ -38,7 +38,7 @@ Environment stores variables that point to values (numerals, operators).
 **** 1.1.3 Evaluating Combinations
 `(define x 3)` is an exemption (*special form* or sometimes *syntactic sugar*).
 It does not evaluate two variables (value of x and value of 3), but assigns 3 as the value of x.
-Each specia form has its own evaluation rule - this is the *syntax* of the programming language.
+Each special form has its own evaluation rule - this is the *syntax* of the programming language.
 Lisp has a simple syntax: general evaluation rule + a small number of special forms.
 **** 1.1.4 Compound procedures
 (define <name> <params> <body>)

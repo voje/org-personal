@@ -21,3 +21,5 @@ Book: file:~/Documents/books/ddia.pdf
 ** Doom Emacs
 *** TODO prepare org sync
 *** DONE Create link that opens .pdf in evince
+** Try out org in nvim
+* Other

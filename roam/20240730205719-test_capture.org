@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a5ed6f9a-a7f5-4dce-8d5e-ba526f43321a
+:END:
+#+title: test-capture
+
+No idea what this does, looks cool tho.

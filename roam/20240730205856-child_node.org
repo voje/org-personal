@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       bfcedd9f-a657-4e3b-911e-7646b027e117
+:END:
+#+title: child-node
+
+Reference to parent: [[id:a5ed6f9a-a7f5-4dce-8d5e-ba526f43321a][test-capture]].
+Ok now, this is getting cool.

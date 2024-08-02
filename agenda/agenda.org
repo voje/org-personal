@@ -10,6 +10,8 @@ CLOCK: [2024-07-19 pet 15:43]--[2024-07-19 pet 17:17] =>  1:34
 Book: [[~/Documents/books/sicp.pdf]]
 Git: https://github.com/voje/sicp
 Cool scheme intro (using emacs): https://spritely.institute/static/papers/scheme-primer.html
+Notes: [[../book_notes/sicp.org]]
+Left off: [[file:../book_notes/sicp.org::*1.1.5 The Substitution Model for Procedure Application][1.1.5 The Substitution Model for Procedure Application]]
 *** DONE Set up git project
 *** [[../book_notes/sicp.org]]
 Left off: [[file:../book_notes/sicp.org::*1.1.5 The Substitution Model for Procedure Application][1.1.5 The Substitution Model for Procedure Application]]
@@ -17,9 +19,24 @@ Left off: [[file:../book_notes/sicp.org::*1.1.5 The Substitution Model for Proce
 ** ddia
 Book: file:~/Documents/books/ddia.pdf
 
+** Why We sleep
+Notes: [[../book_notes/why_we_sleep.org]]
+
 * Tech
 ** Doom Emacs
 *** TODO prepare org sync
 *** DONE Create link that opens .pdf in evince
 ** Try out org in nvim
+So far Emacs look and feel is better (prettier, more gadgets to play with.).
+Emacs terminal emulators are lacking, so I still see neovim + tmux a good alternative for
+programming.
+For note-taking, where things can be a bit slower, Emacs seems like a good choice (also supports embedding images, etc...).
+** 4g core
+** Prepare ORG system for capture
+*** TODO capture random notes
+*** TODO capture a meeting
+Where do we store meeting notes, how do we query meetings (per project, ...)
+** TODO start a project - code a simple Python cli app for parsing my bank summary
+Where do I keep project TODOs - in this org file or in the project's TODO.md?
+Maybe I can import the project's TODO.org into this agenda (dynamically add/remove TODOs)?
 * Other

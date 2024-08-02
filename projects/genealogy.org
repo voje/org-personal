@@ -9,10 +9,3 @@ Why I want to write this program?
 But he wants to do everything using ChatGPT. I want to write a better program by hand.
 ** Recent family reunion
 Got me wondering about the family tree, how hard it is to maintain and how easy it would be to create my own software, as an alternative to all of the paid ones.
-
-* TODOs
-** TODO One
-** HOLD Two
-** IDEA Three
-** TODO Four
-** TODO Five

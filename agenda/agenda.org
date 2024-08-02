@@ -11,12 +11,11 @@ Book: [[~/Documents/books/sicp.pdf]]
 Git: https://github.com/voje/sicp
 Cool scheme intro (using emacs): https://spritely.institute/static/papers/scheme-primer.html
 *** DONE Set up git project
-*** [[./book_notes/sicp.org]]
-Left off: [[file:book_notes/sicp.org::*1.1.5 The Substitution Model for Procedure Application][1.1.5 The Substitution Model for Procedure Application]]
+*** [[../book_notes/sicp.org]]
+Left off: [[file:../book_notes/sicp.org::*1.1.5 The Substitution Model for Procedure Application][1.1.5 The Substitution Model for Procedure Application]]
 
 ** ddia
 Book: file:~/Documents/books/ddia.pdf
-
 
 * Tech
 ** Doom Emacs
